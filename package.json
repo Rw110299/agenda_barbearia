@@ -1,15 +1,28 @@
 {
-  "name": "site_barbearia_lamaia",
+  "name": "site_barbearia_o.o",
   "version": "1.0.0",
   "description": "Landing page para barbearia com agendamento online",
   "main": "cod/agendamento.js",
   "scripts": {
-    "test": "jest"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "author": "Richard Souza",
   "license": "MIT",
   "type": "module",
   "devDependencies": {
-    "jest": "^29.7.0"
-  }
+    "jest": "^30.0.3"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rw110299/agenda_barbearia"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Rw110299/agenda_barbearia/issues"
+  },
+  "homepage": "https://github.com/Rw110299/agenda_barbearia#readme"
 }
